@@ -1,0 +1,111 @@
+/* GLOBAL */
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fbfcff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+.header h1.title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.header .navbar .search {
+  font-size: 16px;
+  border: 1px solid #bfc8e5;
+  padding: 15px 20px;
+}
+
+.header .navbar .search i {
+  font-size: 18px;
+}
+
+.header .navbar .search input {
+  border: none;
+  color: #151b32;
+  outline: none;
+}
+
+.header .navbar .navbar-menu .nav-link {
+  color: #151b32;
+  transition: all 0.3s;
+}
+
+.header .navbar .navbar-menu .nav-link:hover {
+  background-color: #849fff;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.header .navbar .navbar-menu .nav-link.active {
+  background-color: #849fff;
+  color: #fff;
+  border-radius: 4px;
+}
+
+/* USER */
+.user .user-card {
+  display: flex;
+  height: 200px;
+  padding: 24px;
+  margin-top: 30px;
+  border: 2px solid transparent;
+  transition: all 0.3s;
+}
+
+.user .user-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.user .user-card .content h3.name {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.user .user-card .content .address {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.user .user-card .badge {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user .user-card .badge .badge-item {
+  color: #516fd4;
+  border: 1px solid #bfc8e5;
+  padding: 5px 10px;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.user .user-card:hover {
+  border: 2px solid #bfc8e5;
+  border-radius: 16px;
+  box-shadow: 0px 8px 24px 0px rgba(218, 224, 249, 0.7);
+}
